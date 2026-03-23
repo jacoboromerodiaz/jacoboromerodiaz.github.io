@@ -1,0 +1,4 @@
+[submodule "themes/cactus"]
+	path = themes/cactus
+	url = git@github.com:jacoboromerodiaz/hugo-theme-cactus.git
+	branch = rickyhewitt-patch-1
