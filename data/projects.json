@@ -1,0 +1,24 @@
+{
+    "list": [
+        {
+            "name": "ASR Beyond High-Resource Languages",
+            "url": "https://www.codabench.org/competitions/10820/#/results-tab",
+            "desc": "Built a multilingual ASR pipeline for 21 underrepresented languages and achieved 3rd place in the Mozilla Common Voice Shared Task."
+        },
+        {
+            "name": "Understanding Whether Speech-LLM Models Listen or Read",
+            "url": "https://github.com/jacoboromerodiaz/context-mixing-audio-text",
+            "desc": "Built an attribution framework to analyze how Speech-to-Text Translation models mix audio and text context, using Captum-based multimodal interpretability, forced alignment, and token-level visualizations for reproducible research."
+        },
+        {
+            "name": "Reconstructing Missing MRI Sequences with Deep Learning",
+            "url": "https://github.com/jacoboromerodiaz/mri-crossmodality",
+            "desc": "A deep learning framework for cross-modality MRI synthesis, using U-Net and pix2pix to generate missing sequences from aligned 2D scans with a strong focus on reproducibility and anatomical fidelity. Developed as my undergraduate Physics thesis."
+        },
+        {
+            "name": "Named Entity Recognition with BERT",
+            "url": "https://github.com/jacoboromerodiaz/NER_BERT_pytorch",
+            "desc": "Implemented a PyTorch-based BERT pipeline for named entity recognition, working with transformer models for token-level classification in NLP."
+        }
+    ]
+}
