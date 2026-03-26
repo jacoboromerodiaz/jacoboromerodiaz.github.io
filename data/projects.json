@@ -1,6 +1,11 @@
 {
     "list": [
         {
+            "name": "GPT-2 from scratch (work in progress)",
+            "url": "https://github.com/jacoboromerodiaz/gpt-2",
+            "desc": "Implementing the full system from scratch, from tokenizer and model architecture to training pipeline and evaluation."
+        },
+        {
             "name": "ASR Beyond High-Resource Languages",
             "url": "https://www.codabench.org/competitions/10820/#/results-tab",
             "desc": "Built a multilingual ASR pipeline for 21 underrepresented languages and achieved 3rd place in the Mozilla Common Voice Shared Task."
