@@ -1,9 +1,9 @@
 {
     "list": [
         {
-            "name": "GPT-2 from scratch (work in progress)",
+            "name": "ChatGPT-2 from Scratch",
             "url": "https://github.com/jacoboromerodiaz/gpt-2",
-            "desc": "Implementing the full system from scratch, from tokenizer and model architecture to training pipeline and evaluation."
+            "desc": "Building a GPT-2-based instruct model from scratch, covering the tokenizer, model architecture, pretraining pipeline, evaluation, and the SFT and RLHF stages needed to turn it into a small ChatGPT-style assistant."
         },
         {
             "name": "ASR Beyond High-Resource Languages",
