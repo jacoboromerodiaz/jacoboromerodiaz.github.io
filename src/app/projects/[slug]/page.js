@@ -117,7 +117,7 @@ export default async function ProjectPage({ params }) {
 
                 {!isPeixeScan && project.gallery?.map(image => <ProjectFigure key={image.src} image={image} />)}
 
-                <Link href={`/projects/${nextProject.slug}`} className="group flex items-center justify-between gap-4 border-t border-base-content/20 pt-5">
+                <Link href={nextProject.link ?? `/projects/${nextProject.slug}`} className="group flex items-center justify-between gap-4 border-t border-base-content/20 pt-5">
                     <span>
                         <span className="block text-xs text-base-content/60">Next project</span>
                         <span className="mt-1 block font-semibold group-hover:underline group-hover:underline-offset-2">{nextProject.title}</span>

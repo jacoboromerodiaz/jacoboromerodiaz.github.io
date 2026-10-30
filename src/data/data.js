@@ -36,6 +36,7 @@ export const allProjects = [
     {
         slug: "peixescan",
         title: "PeixeScan",
+        link: "https://peixescan.com",
         eyebrow: "Mobile app · Computer vision",
         description: "An iPhone app for recording catches, exploring species, and identifying fish from a photo.",
         tags: ["React Native", "TypeScript", "FastAPI", "Supabase", "Computer vision"],
@@ -130,8 +131,8 @@ export const allProjects = [
 ];
 
 export const projects = {
-    pinProjects: allProjects.filter(project => project.featured).map(project => ({ ...project, link: `/projects/${project.slug}` })),
-    otherProjects: allProjects.filter(project => !project.featured).map(project => ({ ...project, link: `/projects/${project.slug}` })),
+    pinProjects: allProjects.filter(project => project.featured).map(project => ({ ...project, link: project.link ?? `/projects/${project.slug}` })),
+    otherProjects: allProjects.filter(project => !project.featured).map(project => ({ ...project, link: project.link ?? `/projects/${project.slug}` })),
 };
 
 export const experience = [
